@@ -35,7 +35,7 @@ export default function Index() {
                             abg
                         </div>
                     </div>
-                    <div className="w-full bg-blue-700 py-16 px-8">
+                    <div className="w-full bg-blue-900 py-16 px-8">
                         <h3 className="text-4xl font-bold font-Barlow text-white w-[80%]">
                             Mengapa Memilih RTQ Wahyu Kusuma
                         </h3>

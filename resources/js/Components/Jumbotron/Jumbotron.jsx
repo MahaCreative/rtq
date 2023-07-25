@@ -11,7 +11,7 @@ export default function Jumbotron() {
             <div className="absolute inset-0 bg-gradient-to-br from-red-300/40 via-red-500/40 bg-black0/40 bg-opacity-40"></div>
             <div className="absolute md lg:top-[2%] lg:left-[5%] w-full">
                 <div className="relative flex gap-3 items-center">
-                    <div className="px-3 py-1 bg-blue-700">
+                    <div className="px-3 py-1 bg-blue-900">
                         <p className="text-white font-Barlow font-bold">
                             Terbaru
                         </p>
@@ -26,10 +26,10 @@ export default function Jumbotron() {
                 <h1 className="text-2xl font-bold font-Barlow leading-10 text-blue-500">
                     SELAMAT DATANG DI SITUS REMSI
                 </h1>
-                <p className="relative text-5xl font-kaushan font-extralight rounded-md inline text-blue-700">
+                <p className="relative text-5xl font-kaushan font-extralight rounded-md inline text-blue-900">
                     RTQ WAHYU KUSUMA
                 </p>
-                <div className="my-4 relative inset-x-auto font-Barlow w-[80%] md:w-[70%] lg:w-[40%] p-2 rounded-lg shadow-md bg-blue-700/50 tracking-tighter">
+                <div className="my-4 relative inset-x-auto font-Barlow w-[80%] md:w-[70%] lg:w-[40%] p-2 rounded-lg shadow-md bg-blue-900/50 tracking-tighter">
                     <p>
                         Memberikan kontribusi nyata dalam pembangunan sumber
                         daya manusia dan menciptakan insan kamil yang memiliki
