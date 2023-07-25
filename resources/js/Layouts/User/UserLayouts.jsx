@@ -8,7 +8,14 @@ export default function UserLayouts({ children }) {
             <div>
                 <Navigation />
             </div>
-            <div>{children}</div>
+            <div>
+                <div className="relative">{children}</div>
+                <div className="relative px-8 my-3">
+                    <p className="px-4 py-1.5 text-xl text-white font-bold font-Barlow bg-blue-700 inline">
+                        Latest Post
+                    </p>
+                </div>
+            </div>
         </div>
     );
 }
