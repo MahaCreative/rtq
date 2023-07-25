@@ -18,10 +18,10 @@ export default function MenuGrid() {
     }, []);
     return (
         <div className="relative bg-red-900">
-            <div className="grid transition-all duration-300 ease-in-out grid-cols-2 md:grid-cols-4 bg-red-500 justify-center items-center">
+            <div className="grid transition-all duration-300 ease-in-out grid-cols-2 md:grid-cols-4 bg-red-900 justify-center items-center">
                 <div
                     onClick={() => setStateMenu("sambutan")}
-                    className="bg-red-500 md:bg-blue-900 h-24 flex items-center justify-center
+                    className="bg-red-900 md:bg-slate-900 h-24 flex items-center justify-center
              transition-all duration-300 ease-in-out text-white text-center font-Barlow
               font-bold hover:cursor-pointer hover:scale-y-125 hover:rounded-t-lg hover:shadow-md hover:shadow-gray-300/50"
                 >
@@ -29,7 +29,7 @@ export default function MenuGrid() {
                 </div>
                 <div
                     onClick={() => setStateMenu("informasi_rtq")}
-                    className="bg-blue-900 md:bg-red-500 h-24 flex items-center justify-center
+                    className="bg-slate-900 md:bg-red-900 h-24 flex items-center justify-center
              transition-all duration-300 ease-in-out text-white text-center font-Barlow
               font-bold hover:cursor-pointer hover:scale-y-125 hover:rounded-t-lg hover:shadow-md hover:shadow-gray-300/50"
                 >
@@ -37,8 +37,8 @@ export default function MenuGrid() {
                 </div>
                 <div
                     onClick={() => setStateMenu("informasi_donatur")}
-                    className="bg-blue-7
-                    00 md:bg-blue-900 h-24 flex items-center justify-center
+                    className="bg-slate-7
+                    00 md:bg-slate-900 h-24 flex items-center justify-center
              transition-all duration-300 ease-in-out text-white text-center font-Barlow
               font-bold hover:cursor-pointer hover:scale-y-125 hover:rounded-t-lg hover:shadow-md hover:shadow-gray-300/50"
                 >
@@ -46,7 +46,7 @@ export default function MenuGrid() {
                 </div>
                 <div
                     onClick={() => setStateMenu("kegiatan")}
-                    className="md:bg-red-500 h-24 flex items-center justify-center
+                    className="md:bg-red-900 h-24 flex items-center justify-center
              transition-all duration-300 ease-in-out text-white text-center font-Barlow
               font-bold hover:cursor-pointer hover:scale-y-125 hover:rounded-t-lg hover:shadow-md hover:shadow-gray-300/50"
                 >
@@ -95,9 +95,9 @@ export default function MenuGrid() {
                             khususnya informasi proses pendidikan di pesantren.
                         </p>
                     </div>
-                    <div className="transition-all duration-300 opacity-0 md:opacity-100 ease-in-out origin-top  absolute -top-10 right-[15.5%] w-[20%] h-[125%] bg-blue-900 -rotate-3 shadow-md shadow-white/50"></div>
+                    <div className="transition-all duration-300 opacity-0 md:opacity-100 ease-in-out origin-top  absolute -top-10 right-[15.5%] w-[20%] h-[125%] bg-slate-950 -rotate-3 shadow-md shadow-white/50"></div>
 
-                    <div className="transition-all duration-300 opacity-0 md:opacity-100 ease-in-out origin-top absolute top-0 right-[15%] w-[20%] h-full bg-blue-800">
+                    <div className="transition-all duration-300 opacity-0 md:opacity-100 ease-in-out origin-top absolute top-0 right-[15%] w-[20%] h-full bg-slate-900">
                         <div className="relative flex flex-col justify-around items-center h-full z-50">
                             <div className="text-white text-center ">
                                 <p className="text-4xl font-Barlow font-extrabold">
@@ -149,7 +149,7 @@ export default function MenuGrid() {
                         background: "url('./img/5.jpg')",
                     }}
                 >
-                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-red-800/80 via-red-500/80 to-red-800/20"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-red-800/80 via-red-900/80 to-red-800/20"></div>
                     <div className="transition-all duration-300 ease-in-out absolute top-[5%] lg:top-[20%] left-[5%] text-white w-[90vw] md:w-[50vw] lg:w-[30%]">
                         <p className="font-edu font-bold text-xl">
                             Bismillahirrahmanirrahim
@@ -212,7 +212,7 @@ export default function MenuGrid() {
                         background: "url('./img/5.jpg')",
                     }}
                 >
-                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-red-800/80 via-red-500/80 to-red-800/20"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-red-800/80 via-red-900/80 to-red-800/20"></div>
                     <div className="transition-all duration-300 ease-in-out absolute top-[5%] lg:top-[20%] left-[5%] text-white w-[90vw] md:w-[50vw] lg:w-[30%]">
                         <p className="font-edu font-bold text-xl">
                             Bismillahirrahmanirrahim
@@ -275,7 +275,7 @@ export default function MenuGrid() {
                         background: "url('./img/5.jpg')",
                     }}
                 >
-                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-red-800/80 via-red-500/80 to-red-800/20"></div>
+                    <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-red-800/80 via-red-900/80 to-red-800/20"></div>
                     <div className="transition-all duration-300 ease-in-out absolute top-[5%] lg:top-[20%] left-[5%] text-white w-[90vw] md:w-[50vw] lg:w-[30%]">
                         <p className="font-edu font-bold text-xl">
                             Bismillahirrahmanirrahim
